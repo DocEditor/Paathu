@@ -12,19 +12,19 @@ Asena.addCommand({pattern: 'owner', fromMe: false, desc: Lang.WP}, (async (messa
     
     
    
-  r_text[0] = "https://i.imgur.com/oBLYqk7.jpeg";
+  r_text[0] = "https://imgur.com/5wPp4Ta.jpeg";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creator Fasil*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creator Doc*
 
-*owner number  wa.me/918136831431?text=Hi*
+*owner number  wa.me/919061363103?text=Hi*
 
 
-*githublink       https://github.com/Fasil-vkn/Paathu*
+*instagram       https://www.instagram.com/doceditormmx*
 
 
 `}) 
