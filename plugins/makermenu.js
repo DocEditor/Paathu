@@ -632,7 +632,7 @@ else if (Config.WORKTYPE == 'public') {
     await message.client.sendMessage(message.jid,Buffer.from(sewimage.data), MessageType.image, {mimetype: Mimetype.jpg, caption: '*MAKED By Eva BOT*' })
 
 }));
-    QueenSew.addCommand({pattern: 'marvel ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
+    QueenSew.addCommand({pattern: 'mlog ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,need);
   
