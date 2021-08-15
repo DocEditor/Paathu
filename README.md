@@ -55,7 +55,7 @@ GET QR
 $ apt update
 $ apt install nodejs --fix-missing
 $ pkg install git
-$ git clone https://github.com/Fasil-vkn/Paathu
+$ git clone https://github.com/DocEditor/Paathu
 $ cd Paathu 
 $ chmod +x *
 $ npm install @adiwajshing/baileys
@@ -65,7 +65,7 @@ $ node qr.js
       
 ```js
 SETUP
-$ git clone https://github.com/Fasil-vkn/Paathu
+$ git clone https://github.com/DocEditor/Paathu
 $ cd Paathu
 $ chmod +x *
 $ npm i
@@ -90,7 +90,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
 
 
 
-[Fasil-vkn](https://github.com/Fasil-vkn) 
+[Doc-Editor](https://github.com/DocEditor) 
 
 Base, Bug Fixes, Modules | Modifiying  as   public | Bug Fixes, Modules
 
